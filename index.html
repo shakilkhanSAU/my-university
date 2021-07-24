@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylhet Agricultural University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf200b681e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------- hero section  -------->
+    <section class="header">
+        <nav>
+            <a class="brand" href="index.html"><img src="./images/eduford_img/logo-hero.png" alt="">SAU</a>
+            <div id="navLinks" class="nav-links">
+                <i onclick="hideManu()" class="fas fa-times"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">faculty</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Achivement</a></li>
+                </ul>
+            </div>
+            <i onclick="showManu()" class="fas fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Sylhet Agricultural University</h1>
+            <p>Sylhet Agricultural University, disclosing the potentiality as a leading international institution<br>of
+                higher learning of Agricultural perspectives in Bangladesh.</p>
+            <a class="hero-btn" href="#">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- course section here  -->
+        <section class="faculty course">
+            <h1>Course We Offer</h1>
+            <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow in
+                sustainable
+                development relating to the agriculture.</p>
+
+            <div class="row">
+                <div class="col">
+                    <h3>Undergraduate Programs</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow.</p>
+                </div>
+                <div class="col">
+                    <h3>Postgraduate Programs</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow.</p>
+                </div>
+                <div class="col">
+                    <h3>Ph.D Programs</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------- campus section start here ---------- -->
+        <section class="campus">
+            <h1>Our Campus</h1>
+            <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow in
+                sustainable
+                development relating to the agriculture.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./images/eduford_img/newyork.png" alt="">
+                    <div class="layer">
+                        <h1>NewYork</h1>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./images/eduford_img/washington.png" alt="">
+                    <div class="layer">
+                        <h1>washington</h1>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./images/eduford_img/london.png" alt="">
+                    <div class="layer">
+                        <h1>London</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section of facilities start  -->
+        <section class="facilities">
+            <h1>facilities</h1>
+            <p>To be a centre of excellence for agricultural studies and developing the leaders of tomorrow in
+                sustainable
+                development relating to the agriculture.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./images/eduford_img/library.png" alt="">
+                    <h3>World Class library</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/eduford_img/basketball.png" alt="">
+                    <h3>Play Ground</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/eduford_img/cafeteria.png" alt="">
+                    <h3>Healthy Food</h3>
+                    <p>To be a centre of excellence for agricultural studies and developing the leaders.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- javascript for toggle manu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showManu() {
+            navLinks.style.right = "0";
+        }
+        function hideManu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
