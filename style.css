@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -131,6 +135,7 @@ nav .fas {
         text-align: left;
         z-index: 2;
         transition: .5s;
+        display: none;
     }
     nav .fas {
         display: block;
