@@ -24,7 +24,7 @@ nav {
 
 nav .brand {
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
     display: flex;
@@ -33,7 +33,7 @@ nav .brand {
 }
 
 nav img {
-    width: 60px;
+    width: 50px;
 }
 
 .nav-links {
@@ -100,6 +100,7 @@ nav .fas {
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 1rem;
+    font-weight: 600;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -170,13 +171,16 @@ p {
     justify-content: space-between;
 }
 
-.col {
+.faculty-col {
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 15px;
     box-sizing: border-box;
+}
+
+.col {
     transition: all ease 0.5s;
 }
 
@@ -186,7 +190,7 @@ h3 {
     margin-bottom: 12px 0;
 }
 .col:hover {
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.4);
 }
 
 @media (max-width: 700px) {
@@ -266,4 +270,175 @@ h3 {
 .facilities-col img {
     width: 100%;
     border-radius: 10px;
+}
+
+.facilities-col p {
+    font-size: .95rem;
+}
+
+/* testimonial section style  */
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 43%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-col img {
+    height: 50px;
+    /* margin: 0 15px; */
+    padding-right: 12px;
+    border-radius: 50%;
+}
+
+.testimonial-col p {
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-size: .9rem;
+}
+
+.testimonial-col h3 {
+    margin-top: 0px;
+    text-align: left;
+    padding-bottom: 3px;
+}
+
+.testimonial-col .fas {
+    color: crimson;
+}
+
+@media (max-width: 700px) {
+    .testimonial-col img {
+        height: 45px;
+    }
+}
+
+/* call to action start  */
+.cta {
+    margin: 80px auto 30px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(4,8,30,0.6),rgba(4,8,30,0.6)),url(./images/eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: #fff3f3;
+    margin-bottom: 40px;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+
+/* footer style  */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+footer h3 {
+    font-weight: 600;
+    display: inline-block;
+}
+
+footer h3::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: crimson;
+    display: block;
+    margin: auto;
+    transition: all ease .3s;
+}
+
+footer h3:hover::after {
+    width: 100%;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+    transition: all ease .3s;
+}
+
+.social a:hover {
+    color: crimson;
+}
+
+.credit a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 600;
+}
+
+.creator p{
+    font-size: 0.8rem;
+}
+
+/* ---------- about us page --------- */
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,8,30,0.6),rgba(4,8,30,0.6)),url(./images/eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header h1 {
+    margin-top: 60px;
+}
+
+.about-col p {
+    padding: 10px 0;
+}
+
+.about-us {
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 20px 4px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.red-btn {
+    border: 1.5px solid crimson;
+    background: transparent;
+    color: crimson;
+}
+
+.red-btn:hover {
+    color: white;
+}
+@media (max-width: 700px) {
+    
 }

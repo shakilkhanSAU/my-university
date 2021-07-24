@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylhet Agricultural University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf200b681e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------- hero section  -------->
+    <section class="sub-header">
+        <nav>
+            <a class="brand" href="index.html"><img src="./images/eduford_img/logo-hero.png" alt="">SAU</a>
+            <div id="navLinks" class="nav-links">
+                <i onclick="hideManu()" class="fas fa-times"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">faculty</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Achivement</a></li>
+                </ul>
+            </div>
+            <i onclick="showManu()" class="fas fa-bars"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- about us content here  -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Best Agricultural University of Bangladesh</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit iure soluta quas modi, eaque
+                    aliquam cupiditate doloribus. Tempore, corrupti excepturi nulla maxime non inventore rem. Non alias
+                    ea tempore dolorum?</p>
+                <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer class="footer">
+        <h3>About Us</h3>
+        <p>SAU is committed to promote global leadership<br> through education, research and knowledge exchange
+            activities.</p>
+        <div class="social">
+            <a target="_blank" href="https://twitter.com/mshakil_khan"> <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/m.shakil_khan/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/muhammad-shakil-khan-80904b196/"><i
+                    class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="creator">
+            <p>
+                By <span class="credit"><a
+                        href="https://www.linkedin.com/in/muhammad-shakil-khan-80904b196/?originalSubdomain=bd">Md.
+                        Shakil
+                        Khan</a></span> | <i class="far fa-copyright"></i> 2021 Copyright.</span>
+            </p>
+        </div>
+
+    </footer>
+
+
+    <!-- javascript for toggle manu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showManu() {
+            navLinks.style.right = "0";
+        }
+        function hideManu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
